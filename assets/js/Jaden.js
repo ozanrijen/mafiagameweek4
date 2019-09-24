@@ -2,11 +2,11 @@ alert("Je hebt gekozen voor Emilio!");
 var name = prompt("Wil je de naam wijzigen?","Emilio");
 
 alert("Top! Je naam is nu "+name+"!");
-var awnser = prompt("Je wordt wakker op 8 December 1972, je hoort dat er op de deur geklopt wordt.\nWat doe je?\n1)De deur open doen\n2)De deur dicht laten");
+var awnser = prompt("Het is 8 December 1972, je moet naar een vergadering, maar je wilt ook naar Vito om informatie te verstrekken\nWat doe je?\n1)Je gaat naar de vergadering\n2)Je gaat naar Vito");
 
     if(awnser == 1){
 
-        prompt("Je hebt er voor gekozen om de deur open te doen!");
+        prompt("Je stapt je auto in, en rijdt naar het gebouw");
 
     }else if(awnser == 2){
 
