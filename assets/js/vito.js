@@ -39,7 +39,7 @@ else if (v3 == 2) {
     alert("Stap in een taxi.")
 }
 
-var v4 = prompt("Je bent thuis aangekomen.\n1) Maak de deur open\n2) ..?")
+var v4 = prompt("Je bent thuis aangekomen.\n1) Maak de deur open\n2) ..?");
 
 if (v4 == 1) {
     var sleutel = prompt("Heb ik mijn sluitel laten vallen?\n1) Kijk in je zakken")
@@ -64,6 +64,46 @@ else if (v4 == 2) {
     alert("Cartel vijanden: *slippende banden*")
     alert(naam + ": ..? ..!? SONNY! DUI.. *WAPENSCHOT*")
     alert("Cartel vijanden: *rijdt weg met piepende banden*")
+
 }
 
+var v5 = prompt("Je zoon is dood geschoten. Hij valt niet meer te redden. Wat ga je doen?\n1) Sonny naar het ziekenhuis brengen\n2) In een taxi stappen en ze achtervolgen\n3) Er achteraan rennen");
+var toegang;
     
+if (v5 == 1) {
+    alert("Sonny valt niet meer te redden, je gaat ze kwijt raken. Maak snel een keuze")
+    var sonny = prompt("Maak snel een keuze!\n1) In een taxi stappen en ze achtervolgen\n2) Er achteraan rennen")
+
+}
+
+else if (v5 == 2) {
+    var kenteken = prompt("Snel! Noteer de kenteken voordat je ze kwijt raakt!\nKenteken: FB-(21+17)-KW")
+
+}
+
+else if (v5 == 3) {
+    var rennen = prompt("1) Stap snel een taxi in!")
+
+}
+
+if (sonny == 1) {
+    kenteken = prompt("Snel! Noteer de kenteken voordat je ze kwijt raakt!\nKenteken: FB-(21+17)-KW")
+}
+
+else if (sonny == 2) {
+    rennen = prompt("1) Stap snel een taxi in!")
+}
+
+if (rennen == 1) {
+    kenteken = prompt("Snel! Noteer de kenteken voordat je ze kwijt raakt!\nKenteken: FB-(21+17)-KW")
+}
+
+if (kenteken == 38) {
+    toegang = true;
+    alert("Mooi, je hebt zijn kenteken genoteerd.\n Het was FB-38-KW")
+}
+
+else {
+    toegang = false;
+    alert("Probeer het opnieuw!")
+}
