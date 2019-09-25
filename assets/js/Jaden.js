@@ -26,3 +26,10 @@ var awnser = prompt("na de vergadering besluit Mario om jou naar Pablo te sturen
         alert("Je vertrekt en je gaat richting Pablo");
     }
 alert("Je bent aangekomen bij Pablo!");
+
+var awnser = prompt("Je hebt een aantal keuzes wat je gaat doen.\n1) Bel aan\n2) Kijk stiekem door het raam\n3) Ga via de tuin naar binnen");
+    if(awnser == 1) {
+        alert("Pablo: Hey "+name+"!, Je loopt Vito net mis.");
+        alert(name+": Hey Pablo, Wat deed Vito hier?");
+        alert("Pablo: Ooh niks bijzonders, gewoon een aantal dingetjes regelen.")
+    }
